@@ -1,0 +1,8 @@
+{
+  "name": "line-autofix-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "round-robin-scoreboard の www/tests を複製した試験用案件。line-autofix クラウドループ（要望→実装→テスト→プレビュー→承認→マージ）をTEST-グループでE2E検証するためだけに使う。個人情報なし。実データ・本番LINEグループとは接続しない。",
+  "type": "module",
+  "scripts": { "test": "node --test tests/" }
+}
